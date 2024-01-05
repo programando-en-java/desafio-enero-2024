@@ -1,6 +1,6 @@
 # Desafio Enero 2024 - Programando En Java
 
-Bienvenido/a a el desafio de Programando en Java para Enero del 2024. Este desafio consiste en una serie de ejercicios destinados a practicar tus habilidades de programación en Java en diferentes aspectos.
+Bienvenido/a al desafío de Programando en Java para Enero del 2024. Este desafio consiste en una serie de ejercicios destinados a practicar tus habilidades de programación en Java en diferentes aspectos.
 
 ## Instrucciones Generales
 
@@ -9,7 +9,7 @@ Bienvenido/a a el desafio de Programando en Java para Enero del 2024. Este desaf
 - **Documentación:** Donde sea adecuado, agrega comentarios Javadoc para documentar tus clases y métodos.
 - **Pruebas Unitarias:** Utiliza JUnit para escribir pruebas unitarias para tus implementaciones.
 - **Herramientas:** Para realizar estas pruebas puedes usar cualquier tipo de herramientas, ayuda o libreria que necesites.
-- **¡Diviertete!:** Siente libre de modificar el código cómo tu prefieras, no existe una única solución a los problemas, intenta resolverlos cómo creas conveniente.
+- **¡Diviértete!:** Siente libre de modificar el código cómo tu prefieras, no existe una única solución a los problemas, intenta resolverlos cómo creas conveniente.
 
 ## Estructura del Repositorio
 
