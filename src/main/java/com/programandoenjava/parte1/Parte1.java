@@ -17,14 +17,7 @@ public class Parte1 {
             return "";
         }
 
-        // Split the input string into an array of words
         String[] arrayElement = cadena.split(" ");
-
-        // Verify if we have a valid input
-        if(arrayElement.length < 2) {
-            return new StringBuilder(cadena).reverse().toString();
-        }
-
         String result = cadena;
 
         // Iterate over the array of words and reverse each word
