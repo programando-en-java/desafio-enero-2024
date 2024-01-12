@@ -18,13 +18,13 @@ public class Parte1Test {
     @Test
     public void testInvertirPalabrasCaso1() {
         String resultado = parte1.invertirPalabras("Hola Mundo");
-        assertEquals("aloH odluM", resultado);
+        assertEquals("aloH odnuM", resultado);
     }
 
     @Test
     public void testInvertirPalabrasCaso2() {
         String resultado = parte1.invertirPalabras("Prueba Técnica");
-        assertEquals("abeurP acnicéT", resultado);
+        assertEquals("abeurP acincéT", resultado);
     }
 
     @Test
@@ -48,13 +48,13 @@ public class Parte1Test {
     @Test
     public void testInvertirPalabrasCaso6() {
         String resultado = parte1.invertirPalabras("  Espacios   múltiples ");
-        assertEquals("  socapsE   selplítum ", resultado);
+        assertEquals("  soicapsE   selpitlúm ", resultado);
     }
 
     @Test
     public void testInvertirPalabrasCaso7() {
         String resultado = parte1.invertirPalabras("¡Hola, Mundo!");
-        assertEquals("¡aloH, odnuM!", resultado);
+        assertEquals(",aloH¡ !odnuM", resultado);
     }
 
     @Test
