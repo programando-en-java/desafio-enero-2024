@@ -1,5 +1,7 @@
 package com.programandoenjava.parte2;
 
+import java.util.ArrayList;
+
 /**
  * Implementa en Java que tenga un método
  * para agregar números enteros y otro método para calcular
@@ -7,13 +9,21 @@ package com.programandoenjava.parte2;
  */
 public class Parte2 {
 
+    private ArrayList<Integer> arrayList = new ArrayList<Integer>();
+
     /**
      * Calcula la suma de todos los números enteros.
      *
      * @return La suma de los números enteros.
      */
     public int sumarNumeros() {
-        return 0;
+        int sumatori = 0;
+
+        for(int numero : arrayList){
+            sumatori+= numero;
+        }
+
+        return sumatori;
     }
 
     /**
@@ -22,5 +32,6 @@ public class Parte2 {
      * @param numero El número entero que se va a agregar.
      */
     public void agregarNumero(int numero) {
+        this.arrayList.add(numero);
     }
 }
