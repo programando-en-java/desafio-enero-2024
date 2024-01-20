@@ -48,7 +48,7 @@ public class Parte1Test {
     @Test
     public void testInvertirPalabrasCaso6() {
         String resultado = parte1.invertirPalabras("  Espacios   múltiples ");
-        assertEquals("  socapsE   seplítlum ", resultado);
+        assertEquals("  soicapsE   selpitlúm ", resultado);
     }
 
     @Test
