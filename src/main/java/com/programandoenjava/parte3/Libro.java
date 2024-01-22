@@ -2,13 +2,13 @@ package com.programandoenjava.parte3;
 
 public class Libro {
 
-    private String title;
-    private String autor;
-    private int publishYear;
+    protected String title;
+    protected String autor;
+    protected int publishYear;
     //variable de id per objecte
-    private final int idLibro;
+    protected final int idLibro;
     //variable id (contador per tots els objectes)
-    private static int uiidContador;
+    protected static int uiidContador;
 
     public Libro(){
         this.idLibro = ++Libro.uiidContador;

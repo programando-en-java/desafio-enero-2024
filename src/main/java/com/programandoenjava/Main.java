@@ -3,6 +3,7 @@ package com.programandoenjava;
 import com.programandoenjava.parte1.Parte1;
 import com.programandoenjava.parte3.Biblioteca;
 import com.programandoenjava.parte3.Libro;
+import com.programandoenjava.parte3.LibroDigital;
 import com.programandoenjava.parte3.Persona;
 
 public class Main {
@@ -42,6 +43,14 @@ public class Main {
 
         persona.devolverLibro(biblioteca.searchById(1));
         persona.devolverLibro(biblioteca.searchById(3));
+
+
+        LibroDigital libroDigital = new LibroDigital();
+        System.out.println(libroDigital.getIdLibro());
+
+        LibroDigital libroDigital1 = new LibroDigital("Sol y Sombra", "Kimba", 2023, "www.com.es");
+        System.out.println(libroDigital1);
+
 
 
     }
