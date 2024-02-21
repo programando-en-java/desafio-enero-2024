@@ -22,6 +22,9 @@ public class Parte2Test {
         parte2.agregarNumero(10);
         parte2.agregarNumero(3);
         assertEquals(18, parte2.sumarNumeros());
+
+        // the below one must be remove
+        //another commit to test
     }
 
     @Test
